@@ -10,7 +10,7 @@
         console.log(j);
       }
 
-      // if文
+      // 条件分岐（if文）
       let m = 50;
       let n = Math.floor(Math.random() * (m + 1));
       console.log(n);
@@ -20,6 +20,25 @@
         alert("Big!");
       } else {
         alert("Normal");
+      }
+
+      // 条件分岐（switch文）
+      let o = 5;
+      let p = Math.floor(Math.random() * (o + 1));
+      switch (p) {
+        case 1:
+          alert("One");
+          break;
+        case 2:
+          alert("Two");
+          break;
+        case 3:
+        case 4:
+          alert("Three or Four");
+          break;
+        default:
+          alert("Other");
+          break;
       }
     </script>
   </body>
