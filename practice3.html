@@ -29,6 +29,17 @@
       for (var d in data) {
         console.log(d, data[d]);
       }
+
+      // ループを抜ける（break）
+      for (var a = 0; a < 10; a++) {
+        for (var b = 0; b < 10; b++) {
+          var c = a * 10 + b;
+          if (c > 20) {
+            break;
+          }
+          console.log(c + "<br>");
+        }
+      }
     </script>
   </body>
 </html>
